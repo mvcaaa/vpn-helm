@@ -13,7 +13,7 @@ spec:
   accessModes:
   - ReadOnlyMany
   persistentVolumeReclaimPolicy: Retain
-  storageClassName: local-storage
+  storageClassName: local-path
   local:
     path: /lib/modules
   nodeAffinity:
