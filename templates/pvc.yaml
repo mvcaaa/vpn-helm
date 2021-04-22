@@ -8,8 +8,6 @@ metadata:
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
-  capacity:
-    storage: 500Gi
   accessModes:
   - ReadOnlyMany
   storageClassName: local-storage
