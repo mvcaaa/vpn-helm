@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
   capacity:
-    storage: 500Gi
+    storage: 5Gi
   accessModes:
   - ReadOnlyMany
   persistentVolumeReclaimPolicy: Retain
