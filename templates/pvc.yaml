@@ -10,7 +10,7 @@ metadata:
 spec:
   accessModes:
   - ReadOnlyMany
-  storageClassName: local-storage
+  storageClassName: local-path
   resources:
     requests:
       storage: 3Gi
