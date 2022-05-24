@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  vpn:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-05-24T13:15:50.417795864Z"
+    description: A Helm chart for Kubernetes
+    digest: 92a5dee42af892d8d8ef78d9f8318310595fb042bce97efd455e50564632ab0d
+    name: vpn
+    urls:
+    - https://github.com/mvcaaa/vpn-helm/releases/download/vpn-0.1.2/vpn-0.1.2.tgz
+    version: 0.1.2
+generated: "2022-05-24T13:15:50.417810465Z"
